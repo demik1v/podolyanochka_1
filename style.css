@@ -1,0 +1,287 @@
+*{
+	padding: 0;
+	margin: 0;
+}
+
+*{
+	scroll-behavior: smooth;
+}
+
+body{
+	margin: 0 auto;
+	width: 100%;
+	max-width: 1280px;
+}
+
+.gol{
+	display: flex;
+	align-items: center;
+	justify-content: space-around;
+	flex-direction: column;
+	background: url(img/chv.png);
+	background-repeat: no-repeat;
+	background-size: cover;
+	height: 100vh;
+}
+
+.mi{
+	color: white;
+	font-size: 75px;
+	margin-top: 40px;
+	letter-spacing: 20px;
+	z-index: 25;
+	position: absolute;
+	font-family: 'Inter';
+	display: flex;
+	align-items: center;
+	text-align: center;
+	text-shadow: 0px 4px 4px #000000;
+}
+
+
+.stroka{
+	display: flex;
+	justify-content: space-between;
+	position: fixed;
+	height: 40px;
+	width: 100%;
+	background: white;
+	align-items: center;
+	z-index: 100;
+	background: white;
+}
+
+.navig{
+	width: 40%;
+	justify-content: space-around;
+    align-items: center;
+    display: flex;
+}
+
+.txt{
+	font-size: 14px;
+	text-align: center;
+	color: black;
+	cursor: pointer;
+	text-decoration: none;
+	font-family: 'Inter';
+	font-style: normal;
+	font-weight: 500;
+}
+
+.navig a {
+padding: 10px 20px 10px 20px;
+}
+
+.navig a:hover{
+	border: solid 0.5px;
+	color: red;
+	transition-duration: 0.5s;
+}
+
+.logo{
+	text-decoration: none;
+	font-family: 'Montserrat Alternates';
+	font-style: normal;
+	font-weight: 400;
+	font-size: 24px;
+	
+}
+
+.logc{
+	width: 40%;
+	display: flex;
+	text-align: center;
+}
+
+.block1{
+	width: 150px;
+    align-items: center;
+    justify-content: space-between;
+    display: flex;
+    margin-right: 20px;
+}
+
+.block1 img{
+	width: 30px;
+	cursor: pointer;
+}
+
+.block1 img:hover{
+	border: solid 0.5px;
+	border-radius: 10px;
+	color: red;
+	transition-duration: 0.5s;
+}
+
+.new{
+	height: 70vh;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+}
+
+.newtxt{
+	height: 10%;
+    margin-top: 50px;
+	font-family: 'Kelly Slab';
+	font-style: normal;
+	font-weight: 400;
+	font-size: 25px;
+}
+
+.newph{
+	height: 90%;
+	flex-direction: row;
+	display: flex;	
+	margin: 10px;
+}
+
+.people{
+	justify-content: center;
+	align-items: center;
+	display: flex;
+	width: 25%;
+	margin: 20px;
+	flex-direction: column;
+	font-family: 'Inter';
+	font-style: normal;
+	font-weight: 400;
+	font-size: 12px;
+	text-align: center;
+	color: rgba(0, 0, 0, 0.65);
+}
+
+.people img{
+	height: 80%;
+	padding-bottom: 20px;
+}
+
+.collection{
+	background: rgba(253, 16, 16, 0.03);
+	height: 100vh;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+}
+
+.col{
+	height: 10%;
+    margin-top: 50px;
+	font-family: 'Kelly Slab';
+	font-style: normal;
+	font-weight: 400;
+	font-size: 25px;	
+	text-align: center;
+}
+
+.riad1{
+	display: flex;
+	flex-direction: row;
+	align-items: center;
+	justify-content: center;
+	text-align: center;
+	height: 50%;
+}
+
+.riad2{
+	display: flex;
+	flex-direction: row;
+	align-items: center;
+	justify-content: center;
+	text-align: center;
+	height: 50%;
+}
+
+.riad11 .riad22{
+	font-family: 'Kelly Slab';
+	font-style: normal;
+	font-weight: 400;
+	font-size: 16px;
+	text-align: center;
+}
+
+.riad11 img{
+	width: 80%;
+	padding-bottom: 20px;
+}
+
+.riad22 img{
+	width: 80%;
+	padding-bottom: 20px;
+}
+
+.hystory{
+	height: 100vh;
+	display: flex;
+	flex-direction: row;
+	justify-content: center;
+	align-items: center;
+}
+
+.text2{
+	width: 60%;
+}
+
+h3{
+	font-family: 'Jost';
+	font-style: normal;
+	font-weight: 400;
+	font-size: 24px;
+}
+
+h4{
+	font-family: 'Jost';
+	font-style: normal;
+	font-weight: 400;
+	font-size: 20px;	
+}
+
+.dress{
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+
+.dress img{
+	width: 70%;
+}
+
+.foot{
+	height: 40vh;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+}
+
+.navd{
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+	align-items: center;
+	margin: 20px;
+}
+
+
+.navd a {
+padding: 10px 30px 10px 30px;
+}
+
+.navd a:hover{
+	border: solid 0.5px;
+	color: red;
+	transition-duration: 0.5s;
+}
+
+.textf{
+	margin: 10px;
+	text-align: center;
+	display: flex;
+	justify-content: center;	
+}
+
+
+
